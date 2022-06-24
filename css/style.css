@@ -1,0 +1,99 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+.section{
+    display:flex;
+     
+}
+.section items:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0,3);
+}
+.padre{
+    display:flex;
+}
+.items-1{
+    height: 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    cursor: pointer;
+     
+}
+.card{
+    height: 10%;
+}
+span{
+    font-size: 0.8rem;
+}
+
+h6{
+    font-size: 1rem!important;
+    padding: 0!important;
+    margin:0!important;
+}
+
+.items{
+    height: 10%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;}
+
+.items {
+  transition: color 0.5s ease;
+}
+.items:hover{
+    background:cornflowerblue;
+}
+
+.items-1 {
+    transition: color 0.5s ease;
+  }
+  .items-1:hover{
+      background:cornflowerblue;
+  }
+
+.foto{
+    display:flex;
+    /* border-radius:1000px; */
+    border-radius:100px;
+    max-width: 23%;
+    padding: 5px;
+}
+
+.iconos{
+    display: flex;
+    /* max-width: 100%; */
+    justify-content: flex-end;
+}
+menu{
+    height: 100vh;
+    width: 20%;
+    margin: 0%;
+    padding: 0%;
+}
+.columna2{
+    display: flex;
+    text-align:center;
+    background-color:#efefef;
+    flex-direction:column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.columna2 .FotoCol2 {
+    max-width:25%;
+    cursor: pointer;
+}
+.boton{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
